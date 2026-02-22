@@ -39,3 +39,13 @@ print("14",plyears)
 
 a=plyears.index("kohli")#output:15 3# We can find the index of an item in a list by using the index() method. The index() method takes one argument, the item we want to find the index of. It returns the index of the first occurrence of the item in the list.
 print("15",a)
+
+#Note
+
+# remove() removes first matching value
+
+# pop() removes by index
+
+# pop() without index removes last element
+
+# pop() returns removed value

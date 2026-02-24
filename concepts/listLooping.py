@@ -1,6 +1,6 @@
 # Looping through a list
 # We can loop through a list by using a for loop. The for loop iterates through each item in the list and executes the block of code for each item. We can also use a while loop to loop through a list, but it is less common than using a for loop. In a for loop, we can access the index of the current item by using the enumerate() function. The enumerate() function returns both the index and the value of each item in the list.
-players = ["virat", "dhoni", "kohli", "rohit", "surya"]
+players = ["virat", "dhoni", "kohli", "rohit", "suryaa"]
 for player in players:
     print("player:", player)
 
@@ -28,3 +28,8 @@ print("players list after sorting:", players)
 
 players.sort(reverse=True) #sort() method is used to sort a list in place, which means it modifies the original list and does not return a new list. It sorts the list in ascending order by default, but we can also specify the sorting order by using the reverse parameter.
 print("players list after sorting in reverse order:", players)
+
+## We can also use a for loop to loop through a list and perform some operations on each item in the list. For example, we can use a for loop to print only the players whose names are longer than 5 characters.
+for player in players:
+    if len(player) > 5:
+        print("player with name longer than 5 characters:", player)

@@ -33,3 +33,9 @@ print("players list after sorting in reverse order:", players)
 for player in players:
     if len(player) > 5:
         print("player with name longer than 5 characters:", player)
+
+## We can also use a for loop to loop through a list and modify the items in the list. For example, we can use a for loop to capitalize the first letter of each player's name in the players list.
+for i in range(len(players)):
+    players[i] = players[i].capitalize()
+
+print(players)
